@@ -5,8 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon --experimental-modules --es-module-specifier-resolution=node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --experimental-modules --es-module-specifier-resolution=node server.js",
+    "start": "node server.js",
     "build": "npm install"
   },
   "author": "",
@@ -15,7 +15,7 @@
     "bcryptjs": "^2.4.3",
     "cloudinary": "^1.30.0",
     "cors": "^2.8.5",
-    "dotenv": "^16.0.1",
+    "dotenv": "^16.0.3",
     "express": "^4.18.1",
     "mongoose": "^6.3.2",
     "nodemon": "^2.0.16"
