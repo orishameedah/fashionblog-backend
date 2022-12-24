@@ -17,18 +17,6 @@ const __dirname = path.resolve();
 
 app.use("/api/user", router); //http://localhost:5000/api/user/ //the api router for the user
 app.use("/api/blog", blogRouter); //http://localhost:5000/api/blog/ //the api router for the user blogs
-// mongoose.connect("mongodb://localhost/blogdb", {
-//     // mongoose.connect(config.MONGODB_URL, {
-//     useNewUrlParser: true,
-//     useUnifiedTopology: true,
-//     // useCreateIndex: true
-// })
-// .then(()=>{
-//     console.log("connected to mongodb");  //startup your backend server to see the success case message else restart your system
-// })
-// .catch((error) => {
-//     console.log(error.message);
-// })
 
 // mongoose.connect('mongodb+srv://hameedah:meedah7002*@cluster0.5lnkg.mongodb.net/Blog?retryWrites=true&w=majority'
 // ).then(()=>{
